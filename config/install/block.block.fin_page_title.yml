@@ -1,0 +1,34 @@
+uuid: e038ff65-f8b2-4896-8303-3e7326d7cabd
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - ctools
+  theme:
+    - fin
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: 1uv4SJTnUD61M4yWEfkjgE2kgUG0ml9p5K_iw5oK10I
+id: fin_page_title
+theme: fin
+region: content
+weight: -13
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      agent_location: agent_location
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

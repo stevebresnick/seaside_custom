@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - search
+  theme:
+    - fin
+third_party_settings:
+  block_class:
+    classes: 'medium-3 columns'
+_core:
+  default_config_hash: h8-ECu4AhkdZC4cDhpFVZMKtG4XhXAWD6A_PC2WdXLg
+id: searchform
+theme: fin
+region: meta_header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }

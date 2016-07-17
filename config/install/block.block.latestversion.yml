@@ -1,0 +1,23 @@
+uuid: 440649b5-d442-4d51-af00-a9d868da1f80
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - workbench_moderation
+  theme:
+    - fin
+id: fin_workbench_moderation_latest
+theme: fin
+region: left_off_canvas
+weight: -18
+provider: null
+plugin: workbench_moderation_latest_block
+settings:
+  id: workbench_moderation_latest_block
+  label: 'Latest version'
+  provider: workbench_moderation
+  label_display: '0'
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility: {  }

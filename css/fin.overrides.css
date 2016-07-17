@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* @file
+This is a place where you can your cool overrides
+ */
+
+
+/* uncomment this for a quick test to make sure this file is getting called. Youh sould see a blank screen! */
+/*
+body {
+  display:none;
+}
+*/
+
+/* common overrides go here commented out */
+
+
+.absoluteNav {
+	position: relative!important;
+}
+
+#top-bar-sticky-container {
+	background:#222222;
+	opacity: 1;
+}
+
+#top-bar-sticky-container .sticky {
+	opacity: 1;
+	background: #222222;
+}
+
+.meta-header a {
+	color:#fff;
+}
+
+.meta-wrapper {
+	display:none;
+}
+
+.top-bar ul li a {
+	color:#fff!important;
+	text-transform: uppercase;
+}
+
+.top-bar .is-drilldown ul li a {
+	color:#000!important;
+}
+
+.slick-prev {
+	z-index: 4;
+}
+
+
+.slick-initialized .slick-slide {
+    display: block;}
+
+ .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide {position: relative;}
+
+body {
+	    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alt-bg {
+	background:#f6f7f5;
+	padding-top: 20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+#main .block-title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size:1.3em;
+}
+
+#main .block-title span {
+		background:#fff;
+		padding-left:5px;
+		padding-right:5px;
+}
+
+#main .alt-bg .block-title span {
+	background:#f6f7f5;
+}
+
+#views_slideshow_slide_counter_quote_slideshow-quote {
+	text-align: center;
+}
+
+#views_slideshow_slide_counter_quote_slideshow-quote span {
+	font-weight: bold;
+}
+
+#main ul li {
+	font-style: italic;
+}
+
+#main ul {
+    list-style: url(../images/li-style.png);
+    margin: 0 0 0 28px;
+    padding: 0;
+}
+
+.travelclick-bookingmask-booking-form {
+	background:#776a54;
+	max-width:100%;
+	position: relative;
+    z-index: 5;
+    right: 0;
+    top: 20px;
+    text-align: center;
+    top:0;
+}
+
+
+#top-bar-sticky-container .title-bar {
+	background:#222222;
+}
+
+
+.menu-icon::after {
+	background:#eee;
+	box-shadow: 0 7px 0 #eee, 0 14px 0 #eee;
+}
+@media screen and (min-width: 40em) { 
+	.block-region-top .travelclick-bookingmask-booking-form {
+	width:320px;
+	 position: absolute;
+    right: 0;
+    top: 20px;
+}
+}
+
+#main {max-width: 100%;}
+
+.df-tools-slideshow {
+	overflow-x:hidden;
+}
+
+.best-rate {
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#fff;
+}
+
+.best-rate span {
+	font-size:1.3em;
+	font-weight: bold;
+
+}
+
+.travelclick-bookingmask-booking-form .form-item {
+	width:155px;
+	display:inline-block;
+	padding:10px;
+}
+
+.travelclick-bookingmask-booking-form .form-item input {
+	font-size:12px;
+}
+
+.travelclick-bookingmask-booking-form .success.button{
+	    background: #6ab5ae!important;
+	    margin-left:10px;
+	    width:300px;
+}
+
+.view-quote-slideshow {
+	background: url(../images/quotebg.jpg) center center no-repeat;
+}
+
+.view-quote-slideshow .views-field-body {
+	font-style: italic;
+	text-align: center;
+}
+
+.slick-dots li{
+	font-style: normal!important;
+}
+
+footer, footer a {color:#fff;}
+
+footer {margin-top:20px;}
+
+#block-fin-footer ul li {
+display:inline-block;
+list-style: none;
+font-size: .8em;
+text-transform: uppercase;
+border-right:1px solid #fff;
+padding-right:10px;
+padding-left:10px;
+}
+
+#block-fin-footer ul li:last-child {
+	border-right:none;
+}
+
+
+@media screen and (min-width: 64em) {.view-promos .views-row  {
+		max-width:50%;
+		float:left;
+}
+}
+
+  @media screen and (min-width: 0\0) {.view-promos .views-row  {
+	max-width: 100%;
+	float:none;
+}
+}
+
+.views_slideshow_pager_field_item .views-content-nothing span {
+	width:20px;
+	height:10px;
+}
+
+.views_slideshow_pager_field_item {
+	display: inline-block;
+	width:15px;
+	height:15px;
+		border:1px solid #000;
+}
+
+.view-promos .views-field-title {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.view-promos .views-field-view-node a{
+background:#6ab5ae;
+color:#fff;
+}
+.view-promos .views-field-view-node a:hover{
+background:#6aa9b5;
+}
+.views_slideshow_pager_field_item.active {
+	background: #000;
+}
+
+#widget_pager_bottom_promos-block_1 {
+	text-align: center;
+	margin-top:10px;
+}
+
+.block-region-top {
+	margin-bottom:10px;
+}
+
+
+#main .block-title:before {
+	    border-top-width: 2px;
+    border-top-style: solid;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+        border-color: #b9a689!important;
+}
